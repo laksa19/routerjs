@@ -1,5 +1,5 @@
 /*!
- * Fake RouterJS
+ * Simple RouterJS
  *
  * Copyright 2020 Laksamadi Guko
  */
@@ -58,3 +58,5 @@ function loaddata(id,htmlfile){
 	
 }
 
+
+route("container");
