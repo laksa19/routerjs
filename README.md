@@ -3,6 +3,10 @@ Simple routing html page using javascript
 
 [Demo](https://laksa19.github.io/routerjs)
 
+```html
+<div id="container"></div>
+```
+
 ```javascript
 var f_url = window.location.href;
 var t = '?t=' + new Date().getTime();
@@ -57,5 +61,6 @@ function loaddata(id,htmlfile){
 
 }
 
+// routing
 route("container");
 ```
