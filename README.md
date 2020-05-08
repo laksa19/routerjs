@@ -22,7 +22,8 @@ var page = {
 
 function gpath(){
   if(f_url.indexOf("?") > -1){
-      var path_ = f_url.split("?")[1].replace(/\//gi,"-");
+      var gpath_ = f_url.split("&")[0];
+      var path_ = gpath_.split("?")[1].replace(/\/|%2F/gi,"-");
       return path_;
   }
 }
